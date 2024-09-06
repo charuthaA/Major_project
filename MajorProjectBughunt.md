@@ -1,6 +1,7 @@
 # Major Project - Bug hunting on any target of openbugbounty
-## Name - Varchasva Khare
-### Team Members - [Ishan Amrit](https://github.com/IshanAmrit28), [Navya Pillai](https://github.com/Navyanu)
+Team Members - 
+Rajeev kumarRay,Charutha A,
+Himani prajapati, Lalsandam
 
 ## Issue Description
 - Target website we got on [openbugbounty](openbugbounty.org) - [beachhouse.com](beachhouse.com)
@@ -20,9 +21,8 @@
 The following steps indicate a proof of concept outlined in three(3) steps to reproduce and execute the issue.
 
 **Step 1:**
-Navigate to [https://www.beachhouse.com/portal/reg.php](https://www.beachhouse.com/portal/reg.php) and select edit as shown in screenshot attached below.
+Navigate to [https://www.beachhouse.com/portal/reg.php](https://www.beachhouse.com/portal/reg.php) and select edit.
 
-<img src="https://github.com/varchasvakhare2022/Corizo-Internship-Projects/blob/master/images/step1.png">
 
 **Step 2:**
 Modify the profile image request with a local proxy, in this case the consultant is using Burp Suite. Change the Content type from image to text/html as shown in the post request:
